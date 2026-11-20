@@ -1,0 +1,6 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'com.mk.crystal.installer'
+ compileSdk 35
+ defaultConfig { applicationId 'com.mk.crystal.installer'; minSdk 26; targetSdk 34; versionCode 1; versionName '1.0' }
+}
